@@ -1,0 +1,78 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: "calibri";
+}
+
+div.header {
+    font-size: 18pt;
+    display: flex;
+    width: 80%;
+    height: 7%;
+    border: solid 1px white;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12.5px;
+}
+
+div.main {
+    width: 80%;
+    height: 60%;
+    border: solid 1px white;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+}
+
+div.bottom {
+    display: flex;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    height: 10%;
+}
+
+.game {
+    font-size: 18pt;
+    width: 30%;
+    border: solid 1px white;
+    border-radius: 12.5px;
+    margin-right: 20%;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.home {
+    width: 20%;
+    border: solid 1px white;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.credits {
+    font-size: 18pt;
+    width: 30%;
+    border: solid 1px white;
+    border-radius: 12.5px;
+    margin-left: 20%;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.home-image {
+    width: 30%;
+    margin-top: 5%;
+}
+
+.button-text {
+    margin-top: 7%;
+}
