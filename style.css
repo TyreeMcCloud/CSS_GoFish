@@ -30,10 +30,61 @@ div.main {
 	background-image: url("under the sea.jpg");
 }
 .carddeck {
-  transition: 0.3s;
   position: relative;
   left: 450px;
   width: 10%;
+}
+
+.cardhand1_1, .cardhand1_2, .cardhand1_3, .cardhand1_4, .cardhand1_5{
+position: relative;
+top: 250px;
+width: 5%;
+}
+.cardhand1_1{
+left: 80px;
+transform: rotate(340deg);
+}
+.cardhand1_2{
+left: 45px;
+transform: rotate(350deg);
+}
+.cardhand1_3{
+left: 0px;
+transform: rotate(0deg);
+}
+.cardhand1_4{
+right: 45px;
+transform: rotate(20deg);
+}
+.cardhand1_5{
+right: 85px;
+transform: rotate(30deg);
+}
+
+/*Enlarges the card when highlighted over*/
+.cardhand1_1:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	width: 6%;
+}
+.cardhand1_2:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	width: 6%;
+}
+.cardhand1_3:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	width: 6%;
+}
+.cardhand1_4:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	width: 6%;
+}
+.cardhand1_5:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	width: 6%;
+}
+
+.carddeck:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 div.bottom {
     display: flex;
