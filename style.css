@@ -35,7 +35,21 @@ div.main {
     left: 50%;
     width: 8%;
     transform: translate(-50%, -50%);
+    z-index: 1;
 }
+.backdeck{
+    position: absolute;
+    top: 23.7%;
+    left: 50.6%;
+    width: 4.6%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+
+
+
+
 
 /*Card Hands*/
 /*1*/
@@ -139,10 +153,11 @@ transform: rotate(30deg);
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 	width: 6%;
 }
-
+/*
 .carddeck:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
+}*/
+
 div.bottom {
     display: flex;
     margin-top: 3%;
