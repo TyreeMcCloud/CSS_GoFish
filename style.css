@@ -30,9 +30,11 @@ div.main {
 	background-image: url("under the sea.jpg");
 }
 .carddeck {
-  position: relative;
-  left: 450px;
-  width: 10%;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    width: 8%;
+    transform: translate(-50%, -50%);
 }
 
 /*Card Hands*/
@@ -117,23 +119,23 @@ transform: rotate(30deg);
 
 
 /*Enlarges the card when highlighted over*/
-.cardhand1_1:hover{
+.cardhand2_1:hover{
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 	width: 6%;
 }
-.cardhand1_2:hover{
+.cardhand2_2:hover{
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 	width: 6%;
 }
-.cardhand1_3:hover{
+.cardhand2_3:hover{
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 	width: 6%;
 }
-.cardhand1_4:hover{
+.cardhand2_4:hover{
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 	width: 6%;
 }
-.cardhand1_5:hover{
+.cardhand2_5:hover{
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 	width: 6%;
 }
