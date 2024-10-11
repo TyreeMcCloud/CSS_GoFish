@@ -35,6 +35,8 @@ div.main {
   width: 10%;
 }
 
+/*Card Hands*/
+/*1*/
 .cardhand1_1, .cardhand1_2, .cardhand1_3, .cardhand1_4, .cardhand1_5{
 position: relative;
 top: 250px;
@@ -60,6 +62,59 @@ transform: rotate(20deg);
 right: 85px;
 transform: rotate(30deg);
 }
+/*2*/
+.cardhand2_1, .cardhand2_2, .cardhand2_3, .cardhand2_4, .cardhand2_5 {
+    position: relative;
+    top: 250px;
+    width: 5%;
+  }
+  .cardhand2_1 {
+    left: 80px;
+    transform: rotate(340deg);
+  }
+  .cardhand2_2 {
+    left: 45px;
+    transform: rotate(350deg);
+  }
+  .cardhand2_3 {
+    left: 0px;
+    transform: rotate(0deg);
+  }
+  .cardhand2_4 {
+    right: 45px;
+    transform: rotate(20deg);
+  }
+  .cardhand2_5 {
+    right: 85px;
+    transform: rotate(30deg);
+  }
+
+  .cardhand3_1, .cardhand3_2, .cardhand3_3, .cardhand3_4, .cardhand3_5 {
+    position: relative;
+    top: 250px;
+    width: 5%;
+  }
+  .cardhand3_1 {
+    left: 80px;
+    transform: rotate(340deg);
+  }
+  .cardhand3_2 {
+    left: 45px;
+    transform: rotate(350deg);
+  }
+  .cardhand3_3 {
+    left: 0px;
+    transform: rotate(0deg);
+  }
+  .cardhand3_4 {
+    right: 45px;
+    transform: rotate(20deg);
+  }
+  .cardhand3_5 {
+    right: 85px;
+    transform: rotate(30deg);
+  }
+
 
 /*Enlarges the card when highlighted over*/
 .cardhand1_1:hover{
