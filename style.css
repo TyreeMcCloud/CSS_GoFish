@@ -37,19 +37,46 @@ div.main {
     transform: translate(-50%, -50%);
     z-index: 1;
 }
-.backdeck{
-    position: absolute;
-    top: 23.7%;
-    left: 50.6%;
-    width: 4.6%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
+/*card flipping*/
+.backdeck {
+  position: absolute;
+  top: 23.7%;
+  left: 50.6%;
+  width: 4.6%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  transition:all 0.5s ease;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  height: 12%;
 }
 
+.backdeck:hover {
+  transform: rotateY(180deg);
+}
 
+.backdeck::before, .backdeck::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  top: 0;
+  left: 0;
+}
 
+.backdeck::before {
+  background-image: url('back.png');
+  background-size: cover;
+  background-position: center;
+}
 
-
+.backdeck::after {
+  background-image: url('3_of_diamonds.png');
+  background-size: cover;
+  background-position: center;
+  transform: rotateY(180deg);
+}
 
 /*Card Hands*/
 /*1*/
