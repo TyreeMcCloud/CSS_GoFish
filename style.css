@@ -88,6 +88,7 @@ width: 5%;
 .cardhand1_1{
 left: 80px;
 transform: rotate(340deg);
+
 }
 .cardhand1_2{
 left: 45px;
@@ -180,10 +181,39 @@ transform: rotate(30deg);
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 	width: 6%;
 }
-/*
-.carddeck:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}*/
+
+/*hand animations*/
+.cardhand1_1:hover {
+  animation: shuffle 1s ease-in-out forwards;
+}
+.cardhand1_2:hover {
+  animation: shuffle 1s ease-in-out forwards;
+}
+.cardhand1_3:hover {
+  animation: shuffle 1s ease-in-out forwards;
+}
+.cardhand1_4:hover {
+  animation: shuffle 1s ease-in-out forwards;
+}
+.cardhand1_5:hover {
+  animation: shuffle 1s ease-in-out forwards;
+}
+
+.cardhand3_1:hover{
+  animation: moveAndFade 1.5s ease-in-out forwards;
+}
+.cardhand3_2:hover{
+  animation: moveAndFade 1.5s ease-in-out forwards;
+}
+.cardhand3_3:hover{
+  animation: moveAndFade 1.5s ease-in-out forwards;
+}
+.cardhand3_4:hover{
+  animation: moveAndFade 1.5s ease-in-out forwards;
+}
+.cardhand3_5:hover{
+  animation: moveAndFade 1.5s ease-in-out forwards;
+}
 
 div.bottom {
     display: flex;
@@ -232,4 +262,38 @@ div.bottom {
 
 .button-text {
     margin-top: 7%;
+}
+/*Animations*/
+@keyframes shuffle {
+  0% {
+    transform: translateX(0) rotate(340deg);
+  }
+  20% {
+    transform: translateX(-10px) rotate(350deg);
+  }
+  40% {
+    transform: translateX(10px) rotate(330deg);
+  }
+  60% {
+    transform: translateX(-5px) rotate(345deg);
+  }
+  80% {
+    transform: translateX(5px) rotate(335deg);
+  }
+  100% {
+    transform: translateX(0) rotate(340deg);
+  }
+}
+@keyframes moveAndFade {
+  0% {
+    transform: translateZ(0px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateZ(100px);
+    opacity: 1;
+  }
 }
